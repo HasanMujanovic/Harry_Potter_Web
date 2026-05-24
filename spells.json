@@ -21,8 +21,8 @@
             "incantation": "Nox",
             "effect_sr": "Gasi svjetlost stvorenu čarolijom Lumos.",
             "effect_en": "Extinguishes the light created by Lumos.",
-            "origin_sr": "Prirodni par sa Lumosom — često se uče zajedno na prvoj godini.",
-            "origin_en": "Natural counterpart to Lumos — usually taught together in first year."
+            "origin_sr": "Prirodni par sa Lumosom  često se uče zajedno na prvoj godini.",
+            "origin_en": "Natural counterpart to Lumos  usually taught together in first year."
         },
         {
             "id": "alohomora",
@@ -33,7 +33,7 @@
             "incantation": "Alohomora",
             "effect_sr": "Otključava vrata i bravice koje nisu zaštićene jačim čarolijama.",
             "effect_en": "Unlocks doors and latches not protected by stronger charms.",
-            "origin_sr": "Riječ potiče iz zapadnoafričkog dijalekta — \"prijateljski naklonjeno lopovima\".",
+            "origin_sr": "Riječ potiče iz zapadnoafričkog dijalekta  \"prijateljski naklonjeno lopovima\".",
             "origin_en": "Word originates from a West African dialect meaning \"friendly to thieves\"."
         },
         {
@@ -45,8 +45,8 @@
             "incantation": "Expelliarmus",
             "effect_sr": "Razoružava protivnika izbacujući mu štap iz ruke.",
             "effect_en": "Disarms an opponent, sending their wand flying from their hand.",
-            "origin_sr": "Potpis Harija Potera — koristio ga je toliko često da je postao njegova zaštitna čarolija.",
-            "origin_en": "Harry Potter's signature spell — he used it so often it became his trademark."
+            "origin_sr": "Potpis Harija Potera  koristio ga je toliko često da je postao njegova zaštitna čarolija.",
+            "origin_en": "Harry Potter's signature spell  he used it so often it became his trademark."
         },
         {
             "id": "stupefy",
@@ -57,8 +57,8 @@
             "incantation": "Stupefy",
             "effect_sr": "Onesvješćuje protivnika crvenim mlazom svjetla.",
             "effect_en": "Knocks an opponent unconscious with a jet of red light.",
-            "origin_sr": "Standardna čarolija aurora — najčešća za bezbjedno hvatanje sumnjivaca.",
-            "origin_en": "Standard Auror spell — the most common way to safely apprehend a suspect."
+            "origin_sr": "Standardna čarolija aurora  najčešća za bezbjedno hvatanje sumnjivaca.",
+            "origin_en": "Standard Auror spell  the most common way to safely apprehend a suspect."
         },
         {
             "id": "protego",
@@ -69,8 +69,8 @@
             "incantation": "Protego",
             "effect_sr": "Stvara magični štit koji reflektuje uroke nazad ka napadaču.",
             "effect_en": "Creates a magical shield that reflects spells back at the attacker.",
-            "origin_sr": "Latinski za \"štititi\" — temelj svake odbrambene magije.",
-            "origin_en": "Latin for \"I protect\" — the foundation of all defensive magic."
+            "origin_sr": "Latinski za \"štititi\"  temelj svake odbrambene magije.",
+            "origin_en": "Latin for \"I protect\"  the foundation of all defensive magic."
         },
         {
             "id": "expecto-patronum",
@@ -79,8 +79,8 @@
             "category": "defense",
             "difficulty": 5,
             "incantation": "Expecto Patronum",
-            "effect_sr": "Prizivanje Patronusa — duhovnog zaštitnika protiv Dementora.",
-            "effect_en": "Conjures a Patronus — a spirit guardian against Dementors.",
+            "effect_sr": "Prizivanje Patronusa  duhovnog zaštitnika protiv Dementora.",
+            "effect_en": "Conjures a Patronus  a spirit guardian against Dementors.",
             "origin_sr": "Jedna od najtežih čarolija; zahtijeva snažnu sretnu uspomenu.",
             "origin_en": "One of the most difficult spells; requires a powerful happy memory."
         },
@@ -129,8 +129,8 @@
             "incantation": "Obliviate",
             "effect_sr": "Briše određena sjećanja iz uma cilja.",
             "effect_en": "Erases specific memories from the target's mind.",
-            "origin_sr": "Lockhart pokušava da je upotrijebi na Ronu i Hariju — i zaboravlja sam sebe.",
-            "origin_en": "Lockhart tries to use it on Ron and Harry — and ends up wiping his own memory."
+            "origin_sr": "Lockhart pokušava da je upotrijebi na Ronu i Hariju  i zaboravlja sam sebe.",
+            "origin_en": "Lockhart tries to use it on Ron and Harry  and ends up wiping his own memory."
         },
         {
             "id": "imperio",
@@ -139,8 +139,8 @@
             "category": "unforgivable",
             "difficulty": 5,
             "incantation": "Imperio",
-            "effect_sr": "Imperius kletva — daje potpunu kontrolu nad voljom žrtve.",
-            "effect_en": "The Imperius Curse — grants total control over the victim's will.",
+            "effect_sr": "Imperius kletva  daje potpunu kontrolu nad voljom žrtve.",
+            "effect_en": "The Imperius Curse  grants total control over the victim's will.",
             "origin_sr": "Jedna od tri Nepraštajuće kletve. Upotreba znači doživotni zatvor u Azkabanu.",
             "origin_en": "One of three Unforgivable Curses. Use means life imprisonment in Azkaban."
         },
@@ -151,8 +151,8 @@
             "category": "unforgivable",
             "difficulty": 5,
             "incantation": "Crucio",
-            "effect_sr": "Cruciatus kletva — nanosi neizdrživ bol bez fizičkih povreda.",
-            "effect_en": "The Cruciatus Curse — inflicts unbearable pain without physical wounds.",
+            "effect_sr": "Cruciatus kletva  nanosi neizdrživ bol bez fizičkih povreda.",
+            "effect_en": "The Cruciatus Curse  inflicts unbearable pain without physical wounds.",
             "origin_sr": "Belatriks Lestrejndž je majstor ove kletve; koristi je za mučenje Longbotomovih.",
             "origin_en": "Bellatrix Lestrange is a master of this curse; she used it to torture the Longbottoms."
         },
@@ -163,8 +163,8 @@
             "category": "unforgivable",
             "difficulty": 5,
             "incantation": "Avada Kedavra",
-            "effect_sr": "Smrtonosna kletva — trenutna i nepovratna smrt. Zeleni mlaz svjetla.",
-            "effect_en": "The Killing Curse — instant and irreversible death. Green flash of light.",
+            "effect_sr": "Smrtonosna kletva  trenutna i nepovratna smrt. Zeleni mlaz svjetla.",
+            "effect_en": "The Killing Curse  instant and irreversible death. Green flash of light.",
             "origin_sr": "Najmračnija od Nepraštajućih. Hari je jedini poznati preživjeli.",
             "origin_en": "Darkest of the Unforgivables. Harry is the only known survivor."
         },
@@ -177,8 +177,8 @@
             "incantation": "Sectumsempra",
             "effect_sr": "Stvara duboke posjekotine kao od nevidljivog mača.",
             "effect_en": "Creates deep slashes as if from an invisible sword.",
-            "origin_sr": "Izumio Severus Snejp dok je još bio student — \"za neprijatelje\".",
-            "origin_en": "Invented by Severus Snape as a student — labeled \"for enemies\"."
+            "origin_sr": "Izumio Severus Snejp dok je još bio student  \"za neprijatelje\".",
+            "origin_en": "Invented by Severus Snape as a student  labeled \"for enemies\"."
         },
         {
             "id": "riddikulus",
@@ -187,8 +187,8 @@
             "category": "defense",
             "difficulty": 3,
             "incantation": "Riddikulus",
-            "effect_sr": "Pretvara Bogarta u nešto smiješno — strah se pobjeđuje smijehom.",
-            "effect_en": "Turns a Boggart into something funny — fear is defeated by laughter.",
+            "effect_sr": "Pretvara Bogarta u nešto smiješno  strah se pobjeđuje smijehom.",
+            "effect_en": "Turns a Boggart into something funny  fear is defeated by laughter.",
             "origin_sr": "Profesor Lupin uči treću godinu Hogvortsa ovoj čaroliji.",
             "origin_en": "Professor Lupin teaches this spell to third-year Hogwarts students."
         },
@@ -199,8 +199,8 @@
             "category": "defense",
             "difficulty": 2,
             "incantation": "Petrificus Totalus",
-            "effect_sr": "Potpuno tjelesno vezivanje — žrtva ostaje uspravna ali nepomična.",
-            "effect_en": "Full Body-Bind — victim remains upright but completely immobile.",
+            "effect_sr": "Potpuno tjelesno vezivanje  žrtva ostaje uspravna ali nepomična.",
+            "effect_en": "Full Body-Bind  victim remains upright but completely immobile.",
             "origin_sr": "Hermiona je iskoristila na Nevilu da ga spriječi da im stane na put.",
             "origin_en": "Hermione used it on Neville to stop him from blocking their way."
         },
@@ -211,8 +211,8 @@
             "category": "utility",
             "difficulty": 2,
             "incantation": "Incendio",
-            "effect_sr": "Stvara plamen — koristi se za potpaljivanje vatre.",
-            "effect_en": "Conjures fire — used to light flames.",
+            "effect_sr": "Stvara plamen  koristi se za potpaljivanje vatre.",
+            "effect_en": "Conjures fire  used to light flames.",
             "origin_sr": "Standardna čarolija za korištenje Letećeg praha u kaminu.",
             "origin_en": "Standard charm for lighting a Floo Powder fire."
         },
@@ -225,8 +225,8 @@
             "incantation": "Aguamenti",
             "effect_sr": "Iz vrha štapa izbija mlaz čiste vode.",
             "effect_en": "A jet of clear water shoots from the wand tip.",
-            "origin_sr": "Od latinskog \"aqua\" — voda. Korisna i u svakodnevici.",
-            "origin_en": "From Latin \"aqua\" — water. Useful in everyday life too."
+            "origin_sr": "Od latinskog \"aqua\"  voda. Korisna i u svakodnevici.",
+            "origin_en": "From Latin \"aqua\"  water. Useful in everyday life too."
         },
         {
             "id": "episkey",
@@ -235,8 +235,8 @@
             "category": "healing",
             "difficulty": 2,
             "incantation": "Episkey",
-            "effect_sr": "Liječi manje povrede — slomljen nos, posjekotine.",
-            "effect_en": "Heals minor injuries — broken nose, small cuts.",
+            "effect_sr": "Liječi manje povrede  slomljen nos, posjekotine.",
+            "effect_en": "Heals minor injuries  broken nose, small cuts.",
             "origin_sr": "Tonks koristi na Hariju nakon što mu Malfoj polomi nos.",
             "origin_en": "Tonks uses it on Harry after Malfoy breaks his nose."
         },
@@ -249,8 +249,8 @@
             "incantation": "Finite Incantatem",
             "effect_sr": "Poništava efekte drugih čarolija u prostoriji.",
             "effect_en": "Cancels the effects of other active spells in the area.",
-            "origin_sr": "Glavna \"reset\" čarolija — uči se u Klubu za odbranu.",
-            "origin_en": "The main \"reset\" spell — taught in the Defense Club."
+            "origin_sr": "Glavna \"reset\" čarolija  uči se u Klubu za odbranu.",
+            "origin_en": "The main \"reset\" spell  taught in the Defense Club."
         },
         {
             "id": "morsmordre",
@@ -259,8 +259,8 @@
             "category": "dark",
             "difficulty": 5,
             "incantation": "Morsmordre",
-            "effect_sr": "Prizivanje Mračnog Znaka — zeleno mrtvačko obličje sa zmijom na nebu.",
-            "effect_en": "Conjures the Dark Mark — a green skull with a serpent in the sky.",
+            "effect_sr": "Prizivanje Mračnog Znaka  zeleno mrtvačko obličje sa zmijom na nebu.",
+            "effect_en": "Conjures the Dark Mark  a green skull with a serpent in the sky.",
             "origin_sr": "Znak Voldemora i njegovih Smrtoždera; izaziva paniku gdje god se pojavi.",
             "origin_en": "Voldemort's mark and that of his Death Eaters; causes panic wherever it appears."
         },
@@ -307,8 +307,8 @@
             "category": "utility",
             "difficulty": 2,
             "incantation": "Reducio",
-            "effect_sr": "Suprotno od Engorgio — vraća predmet u normalnu veličinu.",
-            "effect_en": "Opposite of Engorgio — restores an object to normal size.",
+            "effect_sr": "Suprotno od Engorgio  vraća predmet u normalnu veličinu.",
+            "effect_en": "Opposite of Engorgio  restores an object to normal size.",
             "origin_sr": "Učeno zajedno sa Engorgiom kao osnovne čarolije transformacije.",
             "origin_en": "Taught alongside Engorgio as a basic transformation charm."
         },
@@ -319,8 +319,8 @@
             "category": "utility",
             "difficulty": 4,
             "incantation": "Geminio",
-            "effect_sr": "Duplira predmet — kopija izgleda identično ali je bezvrijedna.",
-            "effect_en": "Duplicates an object — the copy looks identical but is worthless.",
+            "effect_sr": "Duplira predmet  kopija izgleda identično ali je bezvrijedna.",
+            "effect_en": "Duplicates an object  the copy looks identical but is worthless.",
             "origin_sr": "Belatriks ga koristi u trezoru Gringotsa da zaštiti pehar Hafl-Pafa.",
             "origin_en": "Bellatrix uses it in the Gringotts vault to protect Hufflepuff's cup."
         },
@@ -331,8 +331,8 @@
             "category": "defense",
             "difficulty": 3,
             "incantation": "Silencio",
-            "effect_sr": "Cilj ne može da proizvede nikakav zvuk — uključujući izgovaranje čarolija.",
-            "effect_en": "The target cannot produce any sound — including spell incantations.",
+            "effect_sr": "Cilj ne može da proizvede nikakav zvuk  uključujući izgovaranje čarolija.",
+            "effect_en": "The target cannot produce any sound  including spell incantations.",
             "origin_sr": "Naročito korisna protiv čarobnjaka koji zavise od verbalnih čarolija.",
             "origin_en": "Especially useful against wizards who rely on verbal spells."
         },
@@ -343,8 +343,8 @@
             "category": "utility",
             "difficulty": 3,
             "incantation": "Muffliato",
-            "effect_sr": "Ispunjava uši okoline tihim zujanjem — privatni razgovori postaju mogući.",
-            "effect_en": "Fills nearby ears with a soft buzzing — private conversations become possible.",
+            "effect_sr": "Ispunjava uši okoline tihim zujanjem  privatni razgovori postaju mogući.",
+            "effect_en": "Fills nearby ears with a soft buzzing  private conversations become possible.",
             "origin_sr": "Izumio Snejp; Hermiona ju je našla u Knjizi Razlomljenog Princa.",
             "origin_en": "Invented by Snape; Hermione found it in the Half-Blood Prince's book."
         },
@@ -355,8 +355,8 @@
             "category": "defense",
             "difficulty": 5,
             "incantation": "Fidelius",
-            "effect_sr": "Skriva tajnu unutar duše Čuvara Tajne — niko drugi je ne može otkriti.",
-            "effect_en": "Hides a secret inside a Secret-Keeper's soul — no one else can reveal it.",
+            "effect_sr": "Skriva tajnu unutar duše Čuvara Tajne  niko drugi je ne može otkriti.",
+            "effect_en": "Hides a secret inside a Secret-Keeper's soul  no one else can reveal it.",
             "origin_sr": "Štitila je Poterove u Godrikovoj Kotlini sve dok Petigru nije izdao.",
             "origin_en": "Protected the Potters at Godric's Hollow until Pettigrew betrayed them."
         }
