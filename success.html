@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sova poletjela | Knjiga Čarolija</title>
+    <title>Sova poletela | Knjiga Čarolija</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <span class="brand-main" data-i18n="brand-main">Knjiga Čarolija</span>
-                    <span class="brand-sub" data-i18n="brand-sub">Magija svijeta Harrya Pottera</span>
+                    <span class="brand-sub" data-i18n="brand-sub">Magija sveta Harrya Pottera</span>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -75,7 +75,7 @@
                             <path d="M30 60 l2 4 l2 -4"/>
                         </svg>
 
-                        <h1 class="success-title" data-i18n="success-title">Sova je poletjela!</h1>
+                        <h1 class="success-title" data-i18n="success-title">Sova je poletela!</h1>
                         <p class="body-text mt-2" data-i18n="success-msg">
                             Hvala na poruci. Odgovorićemo vam u roku od 24 časa na navedenu email adresu.
                         </p>
@@ -158,7 +158,7 @@
             const countEl = document.getElementById('redirectCountdown');
             const tick = () => {
                 countEl.textContent = lang === 'sr'
-                    ? `Automatski preusmjeravanje za ${seconds}s...`
+                    ? `Automatski preusmeravanje za ${seconds}s...`
                     : `Auto-redirecting in ${seconds}s...`;
                 if (seconds <= 0) { window.location.href = 'index.html'; return; }
                 seconds--;
