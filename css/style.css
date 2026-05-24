@@ -524,8 +524,12 @@ em {
 }
 
 @media (max-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+
     body {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .page-hero {
