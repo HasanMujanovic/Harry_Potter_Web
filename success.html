@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sova poletjela | Knjiga Čarolija</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <div class="logo-emblem">
+                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="28" fill="none" stroke="#C9A84C" stroke-width="1.5" />
+                        <circle cx="30" cy="30" r="22" fill="none" stroke="#C9A84C" stroke-width="0.5" stroke-dasharray="3,3" />
+                        <path d="M 30 12 L 22 22 L 22 38 L 30 48 L 38 38 L 38 22 Z" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+                        <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="Cinzel" font-size="14" fill="#C9A84C" font-weight="700">H</text>
+                        <path d="M 18 6 L 22 12 M 42 6 L 38 12 M 30 4 L 30 8" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div>
+                    <span class="brand-main" data-i18n="brand-main">Knjiga Čarolija</span>
+                    <span class="brand-sub" data-i18n="brand-sub">Magija svijeta Harrya Pottera</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="toggler-icon">☰</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-lg-center gap-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav-home">Početna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spellbook.html" data-i18n="nav-spells">Knjiga Čarolija</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav-about">O projektu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html" data-i18n="nav-contact">Pošalji Sovu</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link nav-login-btn" href="login.html" data-i18n="nav-login">Prijava</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <div class="lang-toggle">
+                            <button class="lang-btn active" onclick="setLanguage('sr')" id="btn-sr">SR</button>
+                            <span class="lang-divider">|</span>
+                            <button class="lang-btn" onclick="setLanguage('en')" id="btn-en">EN</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="success-main">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="success-card">
+
+                        <svg width="72" height="72" viewBox="0 0 64 64" fill="none" stroke="#C9A84C" stroke-width="1.5" class="mb-3">
+                            <ellipse cx="32" cy="34" rx="14" ry="18"/>
+                            <circle cx="26" cy="28" r="3"/>
+                            <circle cx="38" cy="28" r="3"/>
+                            <path d="M30 34 l2 3 l2 -3"/>
+                            <path d="M18 24 l-5 -8 l5 4 z" fill="#C9A84C" opacity="0.4"/>
+                            <path d="M46 24 l5 -8 l-5 4 z" fill="#C9A84C" opacity="0.4"/>
+                            <path d="M18 38 q-10 4 -14 14"/>
+                            <path d="M46 38 q10 4 14 14"/>
+                            <path d="M32 52 v8"/>
+                            <path d="M30 60 l2 4 l2 -4"/>
+                        </svg>
+
+                        <h1 class="success-title" data-i18n="success-title">Sova je poletjela!</h1>
+                        <p class="body-text mt-2" data-i18n="success-msg">
+                            Hvala na poruci. Odgovorićemo vam u roku od 24 časa na navedenu email adresu.
+                        </p>
+
+                        <div class="summary-box" id="successSummary">
+                            <div class="summary-row" id="summaryName"></div>
+                            <div class="summary-row" id="summaryEmail"></div>
+                            <div class="summary-row" id="summaryMsg"></div>
+                        </div>
+
+                        <div class="d-flex gap-3 justify-content-center flex-wrap">
+                            <a href="index.html" class="btn-gold" data-i18n="success-home-btn">
+                                Idi na početnu
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg>
+                            </a>
+                            <a href="spellbook.html" class="btn-outline-gold" data-i18n="success-cipher-btn">
+                                Otvori Knjigu Čarolija
+                            </a>
+                        </div>
+
+                        <p class="redirect-countdown" id="redirectCountdown"></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="footer-brand" data-i18n="brand-main">Knjiga Čarolija</div>
+                    <p class="footer-sub" data-i18n="footer-sub">Projektni zadatak · Web dizajn</p>
+                </div>
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <nav class="footer-nav">
+                        <a href="index.html" data-i18n="nav-home">Početna</a>
+                        <a href="spellbook.html" data-i18n="nav-spells">Knjiga Čarolija</a>
+                        <a href="about.html" data-i18n="nav-about">O projektu</a>
+                        <a href="contact.html" data-i18n="nav-contact">Pošalji Sovu</a>
+                    </nav>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <p class="footer-copy" data-i18n="footer-copy">© 2026 · Državni Univerzitet u Novom Pazaru</p>
+                    <p class="footer-copy" style="opacity:0.5; font-size:0.75rem;"><em data-i18n="footer-motto">Draco Dormiens Nunquam Titillandus</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const lang = localStorage.getItem('lang') || 'sr';
+            const data = JSON.parse(sessionStorage.getItem('contactData') || '{}');
+
+            if (data.name) {
+                document.getElementById('summaryName').innerHTML =
+                    `<span class="summary-label">${lang === 'sr' ? 'Ime' : 'Name'}:</span>
+                     <span class="summary-val">${data.name} ${data.surname}</span>`;
+            }
+            if (data.email) {
+                document.getElementById('summaryEmail').innerHTML =
+                    `<span class="summary-label">Email:</span>
+                     <span class="summary-val">${data.email}</span>`;
+            }
+            if (data.message) {
+                const preview = data.message.length > 80 ? data.message.substring(0, 80) + '…' : data.message;
+                document.getElementById('summaryMsg').innerHTML =
+                    `<span class="summary-label">${lang === 'sr' ? 'Poruka' : 'Message'}:</span>
+                     <span class="summary-val" style="font-style:italic;">${preview}</span>`;
+            }
+
+            let seconds = 10;
+            const countEl = document.getElementById('redirectCountdown');
+            const tick = () => {
+                countEl.textContent = lang === 'sr'
+                    ? `Automatski preusmjeravanje za ${seconds}s...`
+                    : `Auto-redirecting in ${seconds}s...`;
+                if (seconds <= 0) { window.location.href = 'index.html'; return; }
+                seconds--;
+                setTimeout(tick, 1000);
+            };
+            tick();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+.timeline {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 6px;
+    width: 1px;
+    background-color: var(--border-strong);
+    opacity: 0.5;
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 1.8rem;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -1.83rem;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: var(--gold);
+    border-radius: 50%;
+}
+
+.timeline-year {
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    white-space: nowrap;
+    padding-top: 2px;
+    min-width: 78px;
+}
+
+.timeline-title {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 0.2rem;
+}
+
+.timeline-desc {
+    font-size: 0.88rem;
+    color: var(--cream-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.formula-eq {
+    font-family: var(--font-display);
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: var(--cream);
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+.formula-mod {
+    color: var(--gold);
+    font-style: italic;
+}
+
+.math-row td {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.88rem;
+    vertical-align: middle;
+}
+
+.math-row:last-child td {
+    border-bottom: none;
+}
+
+.math-orig {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--cream);
+    min-width: 88px;
+}
+
+.math-op {
+    color: var(--cream-muted);
+    font-style: italic;
+    padding: 0 0.5rem;
+}
+
+.math-res {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--gold);
+    text-align: right;
+}
+
+.tech-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 3px;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.tech-badge--html {
+    background: rgba(227, 76, 38, 0.1);
+    color: #e34c26;
+    border-color: rgba(227, 76, 38, 0.3);
+}
+
+.tech-badge--css {
+    background: rgba(21, 114, 182, 0.1);
+    color: #1572b6;
+    border-color: rgba(21, 114, 182, 0.3);
+}
+
+.tech-badge--js {
+    background: rgba(240, 219, 79, 0.1);
+    color: #d4b800;
+    border-color: rgba(240, 219, 79, 0.3);
+}
+
+.tech-badge--bs {
+    background: rgba(123, 31, 162, 0.1);
+    color: #7952b3;
+    border-color: rgba(123, 31, 162, 0.3);
+}
+
+.tech-name {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 0.4rem;
+}
+
+.tech-desc {
+    font-size: 0.85rem;
+    color: var(--cream-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.page-link-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 1rem 1.2rem;
+    text-decoration: none;
+    transition: border-color 0.2s, background-color 0.2s;
+    height: 100%;
+}
+
+.page-link-card:hover {
+    border-color: var(--gold-dim);
+    background-color: var(--bg-card-hover);
+}
+
+.page-link-card--active {
+    border-color: var(--gold-dim);
+    background-color: rgba(201, 168, 76, 0.05);
+}
+
+.page-link-num {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--gold);
+    opacity: 0.3;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.page-link-name {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--cream);
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.page-link-desc {
+    font-size: 0.8rem;
+    color: var(--cream-muted);
+    font-style: italic;
+    display: block;
+}

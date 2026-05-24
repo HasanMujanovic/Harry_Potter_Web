@@ -1,0 +1,126 @@
+.login-main {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.login-card {
+    display: flex;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold-dim);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.login-deco-strip {
+    width: 60px;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-right: 1px solid var(--border);
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-panel {
+    flex: 1;
+    padding: 2.5rem;
+}
+
+.login-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.3rem;
+}
+
+.login-subtitle {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--cream-muted);
+    margin: 0;
+}
+
+.input-icon {
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--cream-muted);
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.with-icon {
+    padding-left: 2.6rem !important;
+}
+
+.with-icon-right {
+    padding-right: 2.6rem !important;
+}
+
+.toggle-password-btn {
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--cream-muted);
+    cursor: pointer;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password-btn:hover {
+    color: var(--gold);
+}
+
+.field-error .form-control-dark {
+    border-color: var(--error);
+}
+
+.field-error .invalid-feedback-dark {
+    display: block;
+}
+
+.demo-cred-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.demo-cred-card:hover {
+    border-color: var(--gold-dim);
+}
+
+.demo-cred-name {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+}
+
+.demo-cred-pass {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--cream-muted);
+    font-style: italic;
+}
+
+@media (max-width: 576px) {
+    .login-form-panel {
+        padding: 1.5rem;
+    }
+}

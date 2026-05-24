@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pošalji Sovu | Knjiga Čarolija</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center gap-3" href="index.html">
+                <div class="logo-emblem">
+                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="28" fill="none" stroke="#C9A84C" stroke-width="1.5" />
+                        <circle cx="30" cy="30" r="22" fill="none" stroke="#C9A84C" stroke-width="0.5" stroke-dasharray="3,3" />
+                        <path d="M 30 12 L 22 22 L 22 38 L 30 48 L 38 38 L 38 22 Z" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+                        <text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" font-family="Cinzel" font-size="14" fill="#C9A84C" font-weight="700">H</text>
+                        <path d="M 18 6 L 22 12 M 42 6 L 38 12 M 30 4 L 30 8" stroke="#C9A84C" stroke-width="1.2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div>
+                    <span class="brand-main" data-i18n="brand-main">Knjiga Čarolija</span>
+                    <span class="brand-sub" data-i18n="brand-sub">Magija svijeta Harrya Pottera</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="toggler-icon">☰</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav align-items-lg-center gap-1">
+                    <li class="nav-item"><a class="nav-link" href="index.html" data-i18n="nav-home">Početna</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spellbook.html" data-i18n="nav-spells">Knjiga Čarolija</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav-about">O projektu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html" data-i18n="nav-contact">Pošalji Sovu</a></li>
+                    <li class="nav-item ms-lg-2"><a class="nav-link nav-login-btn" href="login.html" data-i18n="nav-login">Prijava</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <div class="lang-toggle">
+                            <button class="lang-btn active" onclick="setLanguage('sr')" id="btn-sr">SR</button>
+                            <span class="lang-divider">|</span>
+                            <button class="lang-btn" onclick="setLanguage('en')" id="btn-en">EN</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero text-center">
+        <div class="container">
+            <p class="section-eyebrow" data-i18n="contact-eyebrow">Pošalji sovu</p>
+            <h1 class="page-hero-title" data-i18n="contact-page-title">Pošalji Sovu</h1>
+            <p class="page-hero-desc" data-i18n="contact-page-desc">
+                Imaš pitanje o čarolijama ili projektu? Pošalji sovu — odgovaramo u roku od 24 časa.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-5 mb-4">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-4">
+                    <h2 class="section-title mb-4" data-i18n="contact-info-title">Informacije</h2>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c2.5 0 4.76 1.02 6.4 2.67"/>
+                                <path d="M12 8v4l3 2"/>
+                                <path d="M16 4l2-2 2 2-2 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="info-label" data-i18n="info-email-label">Sova</span>
+                            <span class="info-value">sova@knjigacarolija.rs</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="info-label" data-i18n="info-location-label">Lokacija</span>
+                            <span class="info-value" data-i18n="info-location-value">Hogvorts, Škotska</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M5 22h14"/>
+                                <path d="M5 18h14"/>
+                                <path d="M7 18l2-6h6l2 6"/>
+                                <path d="M9 12c0-3 1-6 3-6s3 3 3 6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="info-label" data-i18n="info-phone-label">Kamin</span>
+                            <span class="info-value">Floo · Dijagon Alej 93</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon-box">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                <line x1="16" y1="2" x2="16" y2="6" />
+                                <line x1="8" y1="2" x2="8" y2="6" />
+                                <line x1="3" y1="10" x2="21" y2="10" />
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="info-label" data-i18n="info-response-label">Odgovor</span>
+                            <span class="info-value" data-i18n="info-response-value">U roku od 24 časa</span>
+                        </div>
+                    </div>
+
+                    <div class="quote-block mt-4">
+                        <p data-i18n="contact-quote">"Slova putuju brže od svjetlosti — ako ih nosi prava sova."</p>
+                        <cite>— <em>Hedwig's Theme</em></cite>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card-dark p-4">
+
+                        <div class="mb-4 pb-3 border-bottom" style="border-color: var(--border) !important;">
+                            <h2 class="section-title mb-1" data-i18n="form-title">Napiši pismo</h2>
+                            <p class="mb-0" style="font-style: italic; color: var(--cream-muted); font-size: 0.9rem;" data-i18n="form-subtitle">Sva polja su obavezna</p>
+                        </div>
+
+                        <div id="contactForm">
+
+                            <div class="row g-3 mb-3">
+                                <div class="col-sm-6">
+                                    <div id="fg-name" class="position-relative">
+                                        <label class="field-label" for="contactName" data-i18n="field-name">Ime</label>
+                                        <input type="text" id="contactName" class="form-control-dark w-100"
+                                            placeholder="Hari"
+                                            oninput="liveValidate('contactName', 'fg-name', 'name')"
+                                            onfocus="setFocused('fg-name')"
+                                            onblur="setBlurred('fg-name', 'contactName', 'name')" />
+                                        <div class="field-tooltip"><strong class="field-tooltip-title"></strong><p class="field-tooltip-body mb-0"></p></div>
+                                        <div class="contact-feedback" id="fb-name"></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div id="fg-surname" class="position-relative">
+                                        <label class="field-label" for="contactSurname" data-i18n="field-surname">Prezime</label>
+                                        <input type="text" id="contactSurname" class="form-control-dark w-100"
+                                            placeholder="Poter"
+                                            oninput="liveValidate('contactSurname', 'fg-surname', 'name')"
+                                            onfocus="setFocused('fg-surname')"
+                                            onblur="setBlurred('fg-surname', 'contactSurname', 'name')" />
+                                        <div class="field-tooltip"><strong class="field-tooltip-title"></strong><p class="field-tooltip-body mb-0"></p></div>
+                                        <div class="contact-feedback" id="fb-surname"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 position-relative" id="fg-email">
+                                <label class="field-label" for="contactEmail" data-i18n="field-email">Email adresa</label>
+                                <input type="email" id="contactEmail" class="form-control-dark w-100"
+                                    placeholder="vas@hogwarts.uk"
+                                    oninput="liveValidate('contactEmail', 'fg-email', 'email')"
+                                    onfocus="setFocused('fg-email')"
+                                    onblur="setBlurred('fg-email', 'contactEmail', 'email')" />
+                                <div class="field-tooltip"><strong class="field-tooltip-title"></strong><p class="field-tooltip-body mb-0"></p></div>
+                                <div class="contact-feedback" id="fb-email"></div>
+                            </div>
+
+                            <div class="mb-4 position-relative" id="fg-message">
+                                <label class="field-label" for="contactMessage" data-i18n="field-message">Poruka</label>
+                                <textarea id="contactMessage" class="form-control-dark w-100"
+                                    placeholder="Napišite vašu poruku ovdje..." rows="5" maxlength="1000"
+                                    style="resize: vertical;"
+                                    oninput="liveValidate('contactMessage', 'fg-message', 'message'); updateMsgCount()"
+                                    onfocus="setFocused('fg-message')"
+                                    onblur="setBlurred('fg-message', 'contactMessage', 'message')"></textarea>
+                                <div class="field-tooltip"><strong class="field-tooltip-title"></strong><p class="field-tooltip-body mb-0"></p></div>
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="contact-feedback" id="fb-message"></div>
+                                    <small style="font-family: var(--font-display); font-size: 0.65rem; color: var(--cream-muted);">
+                                        <span id="msgCount">0</span>/1000
+                                    </small>
+                                </div>
+                            </div>
+
+                            <button class="btn-gold w-100 justify-content-center" onclick="submitContact()">
+                                <span data-i18n="btn-contact-submit">Pošalji sovu</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13" />
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                </svg>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="footer-brand" data-i18n="brand-main">Knjiga Čarolija</div>
+                    <p class="footer-sub" data-i18n="footer-sub">Projektni zadatak · Web dizajn</p>
+                </div>
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <nav class="footer-nav">
+                        <a href="index.html" data-i18n="nav-home">Početna</a>
+                        <a href="spellbook.html" data-i18n="nav-spells">Knjiga Čarolija</a>
+                        <a href="about.html" data-i18n="nav-about">O projektu</a>
+                        <a href="contact.html" data-i18n="nav-contact">Pošalji Sovu</a>
+                    </nav>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <p class="footer-copy" data-i18n="footer-copy">© 2026 · Državni Univerzitet u Novom Pazaru</p>
+                    <p class="footer-copy" style="opacity:0.5; font-size:0.75rem;"><em data-i18n="footer-motto">Draco Dormiens Nunquam Titillandus</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contacts.js"></script>
+</body>
+
+</html>
