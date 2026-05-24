@@ -25,11 +25,15 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
     background-color: var(--bg-primary);
     color: var(--cream);
     font-family: var(--font-body);
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 1.8;
 }
 
