@@ -69,7 +69,7 @@ function showSuccess(username) {
     sessionStorage.setItem('loggedUser', username);
 
     setTimeout(() => {
-        window.location.href = 'spellbook.html';
+        window.location.href = 'characters.html';
     }, 3000);
 }
 
